@@ -1,0 +1,126 @@
+
+    /* asterisk for all  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid red;
+}
+
+.container > header{
+    min-width: 500px;
+}
+
+.container > header > p{
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.container > header > h1{
+    font-size: 2rem;
+}
+
+.container > header > img{
+    width:100%;
+    margin:0.5rem 0px;
+    object-fit: cover;
+    height: 200px;
+    border-radius: 10px;
+}
+
+section{
+    margin: 0.8rem;
+}
+
+section > h1{
+    font-size: 1.5rem;
+}
+
+section > p{
+    color: green;
+    width: 100%;
+}
+
+.details{
+    background-color: ghostwhite;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+details > h3{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details > ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 1/3 of width if i type 3, 1/2  */
+}
+
+form h3{
+    font-size: 1.5rem;
+}
+
+form .two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 0;
+}
+
+form .two > .one{
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+}
+
+.one > label{
+    font-size: 0.8rem;
+    color: black;
+}
+
+.one > input{
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.tac{
+    margin: 1rem 0;
+}
+
+.tac > a{
+    color: blueviolet;
+}
+
+form button{
+    background-color: blueviolet;
+    color: #fff;
+    width:100%;
+    font-family: Poppins;
+    border: 0;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+form bottum:hover{
+    background-color: rgb(122, 13, 225);
+}
